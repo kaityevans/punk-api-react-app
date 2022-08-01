@@ -1,0 +1,57 @@
+* {
+  background-color: rgb(202, 239, 230);
+}
+.beers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* border: 2px solid black; */
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 70px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid rgb(117, 4, 72);
+  margin: 50px;
+  /* padding: 5px, 10px, 5px, 10px; */
+}
+
+.image {
+  height: 300px;
+  width: 150px;
+  display: flex;
+  align-content: center;
+}
+
+button {
+  width: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(117, 4, 72);
+}
+
+h3,
+button,
+.image {
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  background-color: azure;
+}
+
+li {
+  list-style: none;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 3px solid purple;
+  padding: 15px;
+  background-color: azure;
+}
